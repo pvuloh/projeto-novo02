@@ -10,3 +10,14 @@
 :root{
     --fonte-p: 'Hanken Grotesk', sans-serif;
 }
+
+.container{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.resultado{
+    text-align: center;
+}
