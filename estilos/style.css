@@ -36,6 +36,8 @@ h2{
 
 .resultado> .circle{
     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    flex-direction: row;
+    margin-left: 35%;
     border-radius: 50%;
     width: 100px;
     padding: 20px;
@@ -60,8 +62,8 @@ strong{
     align-self: center;
 }
 
-.resultado> p{
-    padding: 10px 40px 0px 50px;
+.nota> p{
+    padding: 10px 0px 0px 50px;
     margin-right: 50px
 }
 
@@ -74,19 +76,36 @@ strong{
 .stats>h3{
     padding: 30px;
     font-family: var(--fonte-p);
+    color: hsl(224, 30%, 27%);
 }
 
 .status{
     display: flex;
-    margin: 30px;
-    padding: 10px;
-    width: 100vw;
+    flex-direction: row;
+    margin: 10px 30px;
+    padding: 20px;
+    width: 400px;
     font-family: var(--fonte-p);
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .red{
     color: hsl(0, 100%, 67%);
     background: hwb(0 34% 0% / 0.140);
+    border-radius: 10px;
+}
+.yellow{
+    color: hsl(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 0.140);
+    border-radius: 10px;
+}
+.green{
+    color: hsl(166, 100%, 37%);
+    background: hsla(166, 100%, 37%, 0.140);
+    border-radius: 10px;
+}
+.blue{
+    color: hsl(234, 85%, 45%);
+    background: hsla(234, 85%, 45%, 0.140);
     border-radius: 10px;
 }
